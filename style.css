@@ -44,6 +44,12 @@ width: 70%;
     font-family: sans-serif;
     font-weight: bold;
 }
+.headermenu ul li a:hover{
+    color: black;
+    background-color: #ffff;
+    transition: .5s;
+    border-radius: 5px;
+}
 .banner{
     display: block;
     background-image: url(banner.jpg);
