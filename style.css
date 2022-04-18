@@ -15,7 +15,8 @@
 }
 .header{
 background-color: black;
-position: fixed;
+position: sticky;
+top:0;
 z-index: 99;
 }
 .header-logo{
@@ -24,6 +25,8 @@ width: 30%;
 }
 .header-logo img{
     padding-top: 10px;
+    width: 180px;
+    height: auto;
 }
 .headermenu{
 float: right;
@@ -36,7 +39,7 @@ width: 70%;
     display: inline-block;
 }
 .headermenu ul li a{
-   display: block;
+    display: block;
     text-decoration: none;
     text-align: right;
     color: white;
@@ -95,8 +98,17 @@ p{
     font-size: 20px;
     border-radius: 5px;
 }
+#btn1 {
+background-color: #ffff;
+color: black;
+}
 .btn:hover{
 background-color: #ffff;
 color: black;
 transition: .4s;
+}
+#btn1:hover{
+    background: transparent;
+    color: #ffff;
+    transition: .4s;
 }
